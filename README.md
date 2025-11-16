@@ -1,5 +1,18 @@
 # RNA-seq Analysis with Kallisto and NetworkAnalyst.ca
 
+![Bioinformatics](https://img.shields.io/badge/Bioinformatics-RNA--seq-blue?style=for-the-badge&logo=dna)
+![Kallisto](https://img.shields.io/badge/Kallisto-v0.51.0-green?style=for-the-badge)
+![R](https://img.shields.io/badge/R-4.x-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-HPC%20Cluster-orange?style=for-the-badge&logo=linux)
+
+![License](https://img.shields.io/badge/License-Educational-lightgrey?style=flat-square)
+![Organism](https://img.shields.io/badge/Organism-Mus%20musculus-informational?style=flat-square&logo=)
+![Pipeline](https://img.shields.io/badge/Pipeline-Automated-success?style=flat-square)
+![Analysis](https://img.shields.io/badge/Analysis-Differential%20Expression-critical?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-Kallisto%20%7C%20R%20%7C%20NetworkAnalyst-blueviolet?style=flat-square)
+![Institution](https://img.shields.io/badge/Institution-Northeastern%20University-red?style=flat-square)
+
 ## Project Overview
 
 This project implements a complete RNA-seq data analysis pipeline using Kallisto for transcript quantification and NetworkAnalyst.ca for downstream differential expression analysis and functional enrichment. The analysis focuses on mouse (*Mus musculus*) CD4/CD8 T cell populations comparing transfer vs control conditions at different time points.
@@ -467,7 +480,7 @@ module10/
 
 ## Author
 
-**Md Tariqul Islam**  
+**Islam Mdtar**  
 Bioinformatics Graduate Student  
 Northeastern University
 
