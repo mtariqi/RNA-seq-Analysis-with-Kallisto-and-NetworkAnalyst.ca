@@ -467,7 +467,7 @@ module10/
 
 ## Author
 
-**Islam Mdtar**  
+**Md Tariqul Islam**  
 Bioinformatics Graduate Student  
 Northeastern University
 
