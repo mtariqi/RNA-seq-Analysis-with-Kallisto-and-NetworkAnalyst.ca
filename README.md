@@ -396,16 +396,45 @@ renv::install(c('readr', 'dplyr'), prompt=FALSE, lock=TRUE)
 
 ### Quantification Metrics
 
-Sample processing statistics (example from GSM7688023):
+Sample processing statistics from completed runs:
 
+**GSM7688023:**
 ```
 - Total reads processed: 25,281,460
 - Reads pseudo-aligned: 20,872,832 (82.6%)
+- Mapping rate: 82.6%
 - Fragment length: mean = 200, sd = 20
 - K-mer length: 31
 - Target transcripts: 115,911
 - EM iterations: 1,179 rounds
 ```
+
+**GSM7688024:**
+```
+- Total reads processed: 23,694,569
+- Reads pseudo-aligned: 19,753,318 (83.4%)
+- Mapping rate: 83.4%
+- Fragment length: mean = 200, sd = 20
+- K-mer length: 31
+- Target transcripts: 115,911
+- EM iterations: 1,098 rounds
+```
+
+**GSM7688025:**
+```
+- Total reads processed: 27,913,602
+- Reads pseudo-aligned: 22,059,094 (79.0%)
+- Mapping rate: 79.0%
+- Fragment length: mean = 200, sd = 20
+- K-mer length: 31
+- Target transcripts: 115,911
+- EM iterations: In progress
+```
+
+**Overall Statistics:**
+- Average mapping rate: ~81.7%
+- Total reads processed so far: 76,889,631
+- All samples showing consistent k-mer length (31) and target counts (115,911)
 
 ### Expected Outputs
 
